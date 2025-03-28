@@ -1,0 +1,43 @@
+.transactionHistory {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 8px;
+    margin: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.transactionHistory th {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 2px solid #ddd;
+}
+
+.transactionHistory td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.transactionHistory tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.deposit {
+    background-color: #e6ffe6;
+}
+
+.withdrawal {
+    background-color: #ffe6e6;
+}
+
+.payment {
+    background-color: #e6f7ff;
+}
+
+.invoice {
+    background-color: #fff3e6;
+}
