@@ -1,0 +1,23 @@
+.friendItem {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.friendItem img {
+    margin: 10px;
+}
+
+.friendItem p {
+    margin: 0;
+    padding: 0;
+}
+
+.online {
+    color: green;
+}
+
+.offline {
+    color: red;
+}
